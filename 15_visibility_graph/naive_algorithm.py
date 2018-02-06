@@ -41,7 +41,7 @@ def naive_algorithm(first_poly_hul, second_poly_hul):
         for p2 in second_poly_hul:
             t1 = list(p1)
             t2 = list(p2)
-            t1[0] += 0.00001 # TODO
+            t1[0] += 0.00001
             t2[0] -= 0.00001
             intersect = False
 
