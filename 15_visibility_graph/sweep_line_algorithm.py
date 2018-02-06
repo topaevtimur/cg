@@ -2,12 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.spatial import ConvexHull
 
-from util.check import check
-from util.create_SP import createSP
-from util.draw_graph import drawGraph
-from util.generate_points import generatePoints
-from util.hull_go import hullGo
-from util.intersect_line import intersect_line
+from utils import*
 
 
 def sweep_task(solution):
